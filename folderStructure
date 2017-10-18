@@ -1,0 +1,29 @@
+lecture= {
+  css,
+  fonts
+  images
+  lib { angular, ui-router, angularmocks }
+  src{
+      common  { 
+
+        header{header.component.js, header.html} ,
+        menu{ menu.component.js,menu.html},
+        services{acctSummary.service.js},
+        common.module.js
+
+        },
+    
+    public{
+    
+      account{account.controller},
+      home{actSumry.html,createACH.html,home.html},
+      public.html,
+      public.module.js,
+      public.routes
+    },
+    app.module.js
+    },
+ accountDetails.json,
+ index.html
+}
+
